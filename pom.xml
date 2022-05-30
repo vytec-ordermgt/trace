@@ -24,14 +24,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>trace-releases</id>
       <name>trace-releases</name>
-      <url>http://ec2-3-145-91-222.us-east-2.compute.amazonaws.com:8081/repository/trace-releases/</url>
+      <url>http://172.31.6.71:8081/repository/trace-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>trace-snapshots</id>
       <name>trace-snapshots</name>
-      <url>http://ec2-3-145-91-222.us-east-2.compute.amazonaws.com:8081/repository/trace-snapshots/</url>
+      <url>http://172.31.6.71:8081/repository/trace-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
