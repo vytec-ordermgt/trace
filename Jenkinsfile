@@ -14,6 +14,8 @@ pipeline {
 
                 
                 sh "mvn -Dmaven.test.failure.ignore=true clean deploy -s settings.xml"
+                
+                sh "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=vytec-ordermgt_trace"
 
                
             }
